@@ -83,3 +83,59 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+@media (max-width: 600px) {
+  /* Ocultar cabecera */
+  .cabecera {
+    display: none !important;
+  }
+
+  /* Ajustar main-content a una sola columna */
+  .main-content {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+
+  /* Prevenir scroll horizontal */
+  html,body {
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100vw;
+    background-color: white;
+  }
+
+  /* Ajustar tamaño de elementos */
+  h1, h2 {
+    font-size: 20px !important;
+    text-align: center;
+
+  }
+
+  button {
+    font-size: 1em;
+    padding: 8px 12px;
+  }
+
+  /* Ajustar imágenes */
+  .img img {
+    width: 80%;
+  }
+
+  /* Estilizar conocimientos */
+  .conocimientos .secciones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Ajustar referencias a columna */
+  .references .list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+

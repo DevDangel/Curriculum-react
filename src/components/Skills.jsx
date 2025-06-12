@@ -1,8 +1,10 @@
+import '../assets/css/Skill.css'
+
 const Skills = () => {
     return (
         <div className="skills">
             <section>
-                <h2>HABILIDADES</h2>
+                <h2 id='skills-t'>HABILIDADES</h2>
                 <ul>
                     <li>Adaptabilidad y aprendizaje rápido</li>
                     <li>Trabajo en equipo y liderazgo</li>

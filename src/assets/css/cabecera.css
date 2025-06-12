@@ -4,7 +4,7 @@
     height: 110px;
     display: flex;
     position: relative;
-    gap: 0px;
+    gap: -0px;
     background: linear-gradient(to right, #d9dfdb 50%, #212933 50%);
     
 }
@@ -36,11 +36,12 @@
     background-color: #d9dfdb;
     /*clip-path: polygon(0 0, 100% 0, 100% calc(100% - 500px), calc(90% - 10px) 100%, 0 100%);*/
     transform: skewX(-20deg);
-    margin-left: 2%;
+    margin-left: 3%;
+
 }
 #b{
     position: relative;
-    width: 10%;
+    width: 13%;
     height: 150px;
     background-color: #929ca8;
     transform: skewX(-20deg);
@@ -53,6 +54,7 @@
     background-color: #8b7d63;
     transform: skewX(-20deg);
     z-index: 1;
+    margin-left: -1%;
 }
 #d{
     position: relative;
@@ -67,3 +69,4 @@
     height: 100px;
     background-color: #212933;
 }
+
