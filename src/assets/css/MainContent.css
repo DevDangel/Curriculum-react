@@ -1,0 +1,8 @@
+.main-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1,1fr);
+    margin: 10;
+    padding: 10px;
+}
+
