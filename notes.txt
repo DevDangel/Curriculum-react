@@ -1,0 +1,4 @@
+COMMANDOS QUE USE.
+
+ npm install typeface-lato
+ npm install @fortawesome/fontawesome-free

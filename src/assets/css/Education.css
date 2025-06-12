@@ -1,16 +1,17 @@
-.contact{
-
+.education{
     width: 50%;
+    height: auto;
+    grid-column: 2/1;
     align-items: center;
     align-content: center;
     justify-content: center;
     display: flex;
     margin-left: 20%;
 }
-#contacto{
+#educacion{
     font-size: 30px;
 }
-#p{
+#p-e{
     font-size: 20px;
     font-family: 'Lato', sans-serif;
 }
