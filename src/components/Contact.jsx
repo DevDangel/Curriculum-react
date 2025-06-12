@@ -9,7 +9,7 @@ const Contact = () => {
                 <h2 id='contacto'>CONTACTOS</h2><br />
                 <p id='p'><i className="fa-solid fa-phone"></i> 301 6755558</p>
                 <p id='p'><i className="fa-solid fa-envelope"></i> angeldavidh@gmail.com</p>
-                <p id='p'><i className="fa-brands fa-github"></i> github.com/DevDangel</p>
+                <p id='p'><i className="fa-brands fa-github"></i><a href="https://github.com/DevDangel" target='_blank'> github.com/DevDangel</a></p>
                 <p id='p'><i className="fa-solid fa-location-dot"></i> Ibagué,Tolima - Colombia</p>
             </section>
         </div>
