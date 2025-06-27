@@ -1,5 +1,5 @@
 import React from "react";
-import foto from '../assets/img/foto.jpg'
+import foto from '../assets/img/photo.png'
 // css
 import '../assets/css/Image.css';
 

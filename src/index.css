@@ -103,6 +103,7 @@ button:focus-visible {
   html,body {
     overflow-x: hidden;
     width: 100%;
+    margin-left: 0;
     max-width: 100vw;
     background-color: white;
   }
@@ -111,9 +112,55 @@ button:focus-visible {
   h1, h2 {
     font-size: 20px !important;
     text-align: center;
-
   }
 
+  .header{
+    margin-left: 100% !important;
+  }
+  .marron{
+    width: 100% !important;
+    height: 10px !important;
+  }
+
+  .contact{
+      margin-right: 20%;
+  }
+
+  .perfil{
+    margin-right: -20%;
+  }
+
+  .education{
+    margin-right: 30%;
+  }
+  #p-e{
+    margin-top: -10%;
+  }
+  #exp-title{
+    margin-left: 20%;
+  }
+  .line{
+    margin-left: 10%;
+  }
+  #p-exp{
+    width: 100% !important;
+    padding: 1px;
+  }
+  .p-exp{
+    margin-left: 70px !important;
+  }
+  #p-exp2{
+    margin-left: 15% !important;
+    padding: 0 !important;
+
+  }
+  .skills{
+    margin-right: 20px;
+  }
+  ul{
+    margin-left: -50px !important;
+  }
+  
   button {
     font-size: 1em;
     padding: 8px 12px;
@@ -121,21 +168,56 @@ button:focus-visible {
 
   /* Ajustar imágenes */
   .img img {
-    width: 80%;
+    width: 100%;
+    height: 20vh;
   }
-
+  .con-title{
+    margin-left: 20%;
+  }
   /* Estilizar conocimientos */
   .conocimientos .secciones {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 20%;
   }
-
+  #versiones{
+    margin-top: 0% !important;
+  }
+  #postgres{
+    padding: 10px !important;
+    margin-top: 10% !important; 
+    width: 50% !important;
+    height: 50px !important;
+  }
+  #laravel{
+    padding: 10px;
+    margin-top: 10% !important;
+  }
+  #git , #github{
+    margin-left: 20px;
+    padding: 10px;
+    width: 50px !important;
+  }
+  .idiomas{
+    margin-top: 10%;
+  }
+  #idiomas{
+    margin-right: 50%;;
+  }
+  #reference{
+    margin-left: 20%;
+    margin-top: 10%;
+  }
   /* Ajustar referencias a columna */
   .references .list {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 20%;
+  }
+  .esfera, .line-v{
+    display: none !important;
   }
 }
 

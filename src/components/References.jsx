@@ -18,7 +18,7 @@ const References = () => {
                 <section id="juan">
                     <h3 id='h3'>Juan Guillermo Zuluaga</h3>
                     <p id='p-r'>Ingeniero de sistemas<br />
-                    <span id="cel">Celular:</span>314 </p>
+                    <span id="cel">Celular:</span>300 4040337</p>
                 </section>
                 <section id="brayan">
                     <h3 id='h3'>Brayan Alexander Tafur</h3>

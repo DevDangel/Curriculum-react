@@ -5,11 +5,11 @@ const Idiomas = () => {
             <h2 id='idiomas'>IDIOMAS</h2>
             <div className="ingles">
                 <p id='ingles'>Inglés</p>
-                <progress value={50} max={100} id='pr-ingles'></progress>
+                <p style={{fontWeight: 'bold'}}>B1</p>
             </div>
             <div className="espanol">
                 <p id='espanol'>Español</p>
-                <progress value={100} max={100} id='pr-espanol'></progress>
+                <p style={{fontWeight: 'bold'}}>Nativo</p>
             </div>
         </div>
     );

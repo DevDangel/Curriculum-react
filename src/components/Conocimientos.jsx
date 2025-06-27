@@ -34,6 +34,7 @@ const Conocimientos = () => {
                         <img src={pytohn} alt="Python"  id='python'/>
                         <img src={mysql} alt="mysql"  id='mysql' />
                         <img src={postgres} alt="Postgres"  id='postgres'/>
+                        <img src="https://media-public.canva.com/4rKok/MAGQ9R4rKok/1/tl.png" alt="" id='laravel' />
                     </div>    
                 </section>
                 <section id="versiones">
