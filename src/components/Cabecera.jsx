@@ -1,5 +1,5 @@
 import React from "react";
-import "../assets/css/Cabecera.css"; // Assuming you have a CSS file for styles
+import "../assets/css/cabecera.css"; // Assuming you have a CSS file for styles
 
 const Cabecera =()=>{
     return(
