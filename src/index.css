@@ -139,12 +139,13 @@ button:focus-visible {
     margin-right: -20%;
   }
   #perfil-p{
-    text-align: justify !important;
-    word-spacing: 0px !important;
+    text-align: left !important;
+    font-size: 20px !important;
   }
 
   .education{
     margin-right: 30%;
+    width: 100% !important;
   }
   #p-e{
     margin-top: 0%;
@@ -168,8 +169,9 @@ button:focus-visible {
   #p-exp2{
     margin-left: 15% !important;
     padding: 0 !important;
-
+    text-align: left !important;
   }
+  
   .skills{
     margin-right: 20px;
   }
@@ -237,5 +239,5 @@ button:focus-visible {
   .esfera, .line-v{
     display: none !important;
   }
+  
 }
-
