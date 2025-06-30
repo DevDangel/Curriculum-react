@@ -121,26 +121,42 @@ button:focus-visible {
     width: 100% !important;
     height: 10px !important;
   }
-
   .contact{
       margin-right: 20%;
   }
-
+  #p{
+    margin-top: -1%;
+  }
+  .email{
+    display: flex !important;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+  }
   .perfil{
     margin-right: -20%;
+  }
+  #perfil-p{
+    text-align: justify !important;
+    word-spacing: 0px !important;
   }
 
   .education{
     margin-right: 30%;
   }
   #p-e{
-    margin-top: -10%;
+    margin-top: 0%;
   }
   #exp-title{
     margin-left: 20%;
   }
   .line{
     margin-left: 10%;
+  }
+  #line-perfil{
+    margin-left: 0 !important;
   }
   #p-exp{
     width: 100% !important;
@@ -168,8 +184,10 @@ button:focus-visible {
 
   /* Ajustar imágenes */
   .img img {
-    width: 100%;
-    height: 20vh;
+    margin-top: 20px;
+    max-width: 1000%;
+    width: 100% !important;
+    height: 20vh !important;
   }
   .con-title{
     margin-left: 20%;
